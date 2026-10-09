@@ -1,0 +1,179 @@
+body {
+    background-color: #A7D8FF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
+
+    margin: 0;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.barra-branca {
+    height: 65px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 30px;
+}
+
+.barra-branca nav {
+    display: flex;
+    gap: 25px;
+}
+
+.barra-branca a {
+    color: #006f91;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.icones-topo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icones-topo img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.area-logo {
+    background: linear-gradient(
+        120deg,
+        #071c2c,
+        #006f91,
+        #00c9d4
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+.area-logo img {
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+}
+
+.carrinho {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 40px auto;
+}
+
+.carrinho h1 {
+    text-align: center;
+    color: #071c2c;
+
+    margin-bottom: 30px;
+}
+
+#lista-carrinho {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.item-carrinho {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.item-carrinho img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.info-produto {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.info-produto h3 {
+    margin: 0 0 8px;
+
+    color: #006f91;
+}
+
+.info-produto p {
+    margin: 5px 0;
+}
+
+.preco {
+    font-weight: bold;
+    color: #071c2c;
+}
+
+.remover {
+    margin-left: 15px;
+}
+
+.resumo {
+    background-color: white;
+
+    margin-top: 30px;
+    padding: 25px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+
+    text-align: right;
+}
+
+.resumo h2 {
+    color: #006f91;
+}
+
+.resumo p {
+    font-size: 18px;
+}
+
+.total {
+    font-size: 24px !important;
+    color: #071c2c;
+}
+
+.finalizar {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.limpar {
+    margin-top: 10px;
+}
+
+.carrinho-vazio {
+    background-color: white;
+
+    padding: 50px;
+
+    text-align: center;
+
+    border-radius: 15px;
+}
+
+.carrinho-vazio h2 {
+    color: #006f91;
+}
+
+.carrinho-vazio a {
+    margin-top: 15px;
+}

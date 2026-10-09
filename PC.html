@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANHM | Contato</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"rel="stylesheet">
+    <link rel="stylesheet" href="/Página Contato/PC.css">
+</head>
+
+<body>
+    <!--menu e cabeçalho-->
+    <header class="cabecalho">
+        <div class="barra-branca">
+            <nav>
+                <a href="/Página Inicial/PI.html">HOME</a>
+                <a href="/Página sobre/PS.html">SOBRE NÓS</a>
+                <a href="/Página Contato/PC.html">CONTATO</a>
+            </nav>
+
+            <img src="/Página Inicial/ROBO.png" alt="Robô ANHM">
+        </div>
+
+        <div class="area-logo">
+            <img src="/Página Inicial/LOGO.png" alt="Logo ANHM">
+        </div>
+    </header>
+
+    <!--texto de meios de contato-->
+    <main class="contato">
+        <h1>FALE CONOSCO</h1>
+
+        <p class="subtitulo">
+            Entre em contato com a ANHM.
+        </p>
+
+        <div class="conteudo-contato">
+
+            <div class="informacoes">
+                <h2>Entre em contato</h2>
+
+                <p><strong>WhatsApp</strong><br>
+                    (41) 9 1234-5678
+                </p>
+
+                <p><strong>Instagram</strong><br>
+                    @anhm
+                </p>
+
+                <p><strong>E-mail</strong><br>
+                    contato@anhm.com
+                </p>
+
+                <p><strong>Localização</strong><br>
+                    São José dos Pinhais - PR
+                </p>
+
+                <!--maopa-->
+                <iframe
+                    src="https://www.google.com/maps?q=São+José+dos+Pinhais+PR&output=embed"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+
+            </div>
+
+            <!--formulário e partes para preencher-->
+            <div class="formulario">
+
+                <h2>Fale com a gente</h2>
+
+                <form>
+
+                    <label>Nome completo</label>
+                    <input type="text" placeholder="Digite seu nome" required>
+
+
+                    <label>Número de celular</label>
+                    <input type="tel" placeholder="(41) 99999-9999" required>
+
+
+                    <label>E-mail</label>
+                    <input type="email" placeholder="Digite seu e-mail" required>
+
+
+                    <label>Sobre o que você quer falar?</label>
+                    <textarea
+                        placeholder="Digite sua mensagem..."
+                        rows="5"
+                        required></textarea>
+
+                    <!--enviar msgm-->
+                    <button type="submit">
+                        ENVIAR MENSAGEM
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/Página Contato/PC.js"></script>
+</body>
+</html>

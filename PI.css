@@ -1,0 +1,166 @@
+body {
+    background-color: #A7D8FF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.barra-branca {
+    height: 65px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.barra-branca nav {
+    display: flex;
+    gap: 25px;
+}
+
+.barra-branca a {
+    color: #006f91;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.barra-branca img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+
+.icones-topo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icones-topo img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.icones-topo a {
+    display: flex;
+    align-items: center;
+}
+
+.icones-topo a img {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.icones-topo a img:hover {
+    transform: scale(1.1);
+}
+
+.area-logo {
+    background: linear-gradient(
+        120deg,
+        #071c2c,
+        #006f91,
+        #00c9d4
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area-logo img {
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+}
+
+.pesquisa {
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pesquisa form {
+    width: 350px;
+}
+
+
+.filtro {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.filtro .form-label {
+    margin: 0;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 20px;
+}
+
+.celular {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.celular > img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+}
+
+.celular h3 {
+    margin-top: 10px;
+}
+
+.celular p {
+    margin: 5px;
+}
+
+.celular strong {
+    display: block;
+    margin: 10px;
+}
+
+.botoes-produto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.adicionar-carrinho {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adicionar-carrinho img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    transition: 0.2s;
+}
+
+.adicionar-carrinho:hover img {
+    transform: scale(1.1);
+}

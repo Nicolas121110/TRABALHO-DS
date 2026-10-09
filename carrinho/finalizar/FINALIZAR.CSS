@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: #A7D8FF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
+}
+
+.area-logo {
+    background: linear-gradient(120deg, #071c2c, #006f91, #00c9d4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.area-logo img {
+    width: 350px;
+    height: auto;
+}
+
+.finalizar {
+    width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.finalizar h1 {
+    text-align: center;
+    color: #006f91;
+    margin-bottom: 10px;
+}
+
+.finalizar p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.finalizar label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.finalizar input,
+.finalizar select {
+    margin-bottom: 10px;
+}
+
+.finalizar button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px;
+    font-weight: bold;
+}

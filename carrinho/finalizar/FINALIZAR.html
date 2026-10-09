@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANHM | Finalizar Compra</title>
+    <link rel="stylesheet" href="/Página Inicial/carrinho/finalizar/FINALIZAR.CSS">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!--CABEÇALHO-->
+    <header class="cabecalho">
+        <div class="area-logo">
+            <img src="/Página Inicial/LOGO.png" alt="Logo ANHM">
+        </div>
+    </header>
+
+<!--FORMULÁRIO-->
+    <main class="finalizar">
+        <h1>Finalizar Compra</h1>
+        <p>Preencha seus dados para concluir seu pedido.</p>
+
+        <form id="formCompra">
+
+            <!--NOME-->
+            <label for="nome">Nome completo:</label>
+
+            <input
+                type="text"
+                id="nome"
+                class="form-control"
+                placeholder="Digite seu nome"
+                required>
+
+            <!--EMAIL-->
+            <label for="email">E-mail:</label>
+
+            <input
+                type="email"
+                id="email"
+                class="form-control"
+                placeholder="Digite seu e-mail"
+                required>
+
+            <!--ENDEREÇO-->
+            <label for="endereco">Endereço:</label>
+
+                <input
+                    type="text"
+                    id="endereco"
+                    class="form-control"
+                    placeholder="Rua, número e bairro"
+                    required>
+
+            <!--PAGAMENTO-->        
+            <label for="pagamento">Forma de pagamento:</label>
+
+            <select
+                id="pagamento"
+                class="form-select"
+                required>
+
+                <!--OPÇÕES-->
+                <option value="">
+                    Selecione uma opção
+                </option>
+
+                <option value="Pix">
+                    Pix
+                </option>
+
+                <option value="Cartão">
+                    Cartão
+                </option>
+
+                <option value="Boleto">
+                    Boleto
+                </option>
+            </select>
+
+            <!--CONFIRMAR COMPRA-->
+            <button
+                type="submit"
+                class="btn btn-success">
+                Confirmar Compra
+            </button>
+        </form>
+    </main>
+
+    <script src="/Página Inicial/carrinho/finalizar/FINALIZAR.JS"></script>
+
+</body>
+</html>
